@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2.csproj", "{ED4C92F2-E028-4CE7-9D27-29615FB828C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Spirin", "Tyuiu.Spirin.csproj", "{ED4C92F2-E028-4CE7-9D27-29615FB828C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{11E8E788-0CC2-4285-B180-9F24EEA88413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{B7517BA3-0BFB-4C47-A261-0484BF15D1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SavtsovNE.Sprint0.Task1.V0", "..\Tyuiu.SavtsovNE.Sprint0.Task1.V0\Tyuiu.SavtsovNE.Sprint0.Task1.V0.csproj", "{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{ED4C92F2-E028-4CE7-9D27-29615FB828C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED4C92F2-E028-4CE7-9D27-29615FB828C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED4C92F2-E028-4CE7-9D27-29615FB828C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED4C92F2-E028-4CE7-9D27-29615FB828C9} = {11E8E788-0CC2-4285-B180-9F24EEA88413}
+		{3CB71A55-28E7-40B9-9BCE-A169FF4D77CB} = {B7517BA3-0BFB-4C47-A261-0484BF15D1FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DA4DBEE-936F-479C-A39F-B9C3E98B7C91}
